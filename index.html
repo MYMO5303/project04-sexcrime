@@ -6,7 +6,7 @@
     <title>How Japanese Law Handles Rape</title>
     <meta property="og:title" content="https://mymo5303.github.io/project04-sexcrime/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap" rel="stylesheet" >   
@@ -77,6 +77,16 @@
         font-family: 'Stardos Stencil', cursive;
       }
 
+      .body-2 {
+        position: relative;
+        background-color: #BEDCF5;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+
     </style>
   </head>
 
@@ -98,7 +108,13 @@
         <p class="title">
           Victims, Arrests and Indictment
         </p>
+        <p>
+          By Mayumi Oshige | August 7, 2023 |
+          <a href="https://github.com/MYMO5303/project04-sexcrime" target="_blank"><u>Github</u></a>
+        </p>
       </section>
+
+    <div class="body-2">
 
       <section id="scrolly">
         <div class="sticky-thing">
@@ -123,7 +139,12 @@
           </div>
 
         </article>
+
       </section>
+      <center>
+        <img src="22120676_s.jpg" alt="Image of Japanese people during rush hour at the station.">
+      </center>
+    </div>
 
       <section id="outro"></section>
     </main>
@@ -180,7 +201,7 @@
           .setup({
             step: "#scrolly article .step",
             offset: 0.33,
-            debug: true
+            debug: false
           })
           .onStepEnter(handleStepEnter);
 
